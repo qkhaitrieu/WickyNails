@@ -1,0 +1,95 @@
+/* PC */
+/* NÊN ĐỔI TỪ PX SANG EM VID EM NÓ KHÔNG BỊ LỖI TRÊN NHIỀU TRÌNH DUYỆT */
+@media(max-width: 64em){
+    .pc{
+        display: block;
+    }
+}
+/* TABLET & MOBILE*/
+@media(max-width: 63.9375em){
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    
+    .socials-list{
+        font-size: 48px;       
+    }
+    #footer .socials-list a{
+margin: 0 8px;
+    }
+}
+/* TABLET*/
+@media(max-width: 63.9375em) and (min-width: 46.25em){
+    .contact-info{
+        line-height: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
+
+    
+/* MOBILE */
+
+@media(max-width: 46.1875em){
+    .s-full-width,   
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header 
+    {
+        overflow: hidden;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none; /* ẩn buutton seach */
+    }
+
+    #nav{
+        display: block;
+    }
+   #nav > li {
+    display: block;
+    
+}
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial; /* reset về giá trị mặc định , bỏ asolute*/
+        background-color: #333;
+}
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .content-section {
+        width: 90%;
+        
+         margin: 0 3%;
+         
+    }  
+      #content .mau-item{
+          margin-top: 30px;
+          width: 100%;
+
+      }
+        #content .mau-img{
+            width: 80%;
+        }
+        .contact-form{
+            margin-top: 32px;
+        }
+}
+    
